@@ -3,7 +3,7 @@ sales_tax =0.07*meal_cost
 tip = 0.18*meal_cost
 
 
-tip_amount =tip/100*meal_cost
+tip_amount =tip/100*meal_cost #calculates the tip amount
 total_meal_cost =meal_cost+sales_tax+tip_amount
 print("The cost of your meal is: Ksh{:.2f}".format (meal_cost)) 
 print("Total taxes is: Ksh {:.2f}".format (sales_tax)) 
